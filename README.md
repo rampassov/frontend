@@ -20,7 +20,7 @@ Padrões e boas práticas para o Front-End
 
 ### Linter
 - **Sass-lint:**
-  - [Documentação](https://github.com/brigade/scss-lint)
+  - [Documentação](https://github.com/AtomLinter/linter-sass-lint)
 - **Plugins:**
   - [Atom](https://atom.io/packages/linter-scss-lint)
   - [Sublime](https://github.com/attenzione/SublimeLinter-scss-lint)
