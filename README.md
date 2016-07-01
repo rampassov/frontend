@@ -30,7 +30,7 @@ Padrões e boas práticas para o Front-End
 
 ### ES6
 - *Utilizar ES6 nos projetos novos*
-- **ganho padrão para o js**: data-js-funcionalidade
+- **gancho padrão para o js**: data-js-funcionalidade
 - **Exemplos e tutoriais:**
   - [es6-cheatsheet](https://github.com/DrkSephy/es6-cheatsheet)
   - [es6features](https://github.com/lukehoban/es6features)
