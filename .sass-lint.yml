@@ -13,6 +13,7 @@ files:
     - '_dev/sass/vendor/**/*.*'
 # Rule Configuration
 rules:
+  # Mixins
   extends-before-mixins: 2
   extends-before-declarations: 2
   placeholder-in-extend: 0
@@ -20,31 +21,44 @@ rules:
     - 2
     -
       exclude:
-        - breakpoint
-        - mq
-
+        - 'breakpoint'
+        - 'mq'
+        - 'respond-to'
+  # Line Spacing
+  one-declaration-per-line: 1
+  empty-line-between-blocks: 1
+  single-line-per-selector: 1
+  # Disallows
   no-warn: 0
   no-debug: 1
   no-ids: 2
   no-important: 2
-  hex-notation:
-    - 0
-    -
-      style: uppercase
-  indentation:
-    - 0
-    -
-      size: 2
-  property-sort-order:
-    - 0
-    -
-      order:
-        - display
-        - margin
-      ignore-custom-properties: true
+  no-empty-rulesets: 1
+  no-misspelled-properties: 2
+  no-vendor-prefixes: 2
+  # Nesting
+  force-attribute-nesting: 1
+  force-element-nesting: 1
+  force-pseudo-nesting: 1
+  # Style Guide
+  hex-notation: 0
+  indentation: 0
+  property-sort-order: 0
+  # Inner Spacing
+  space-after-comma: 1
+  space-before-colon: 1
+  space-after-colon: 1
+  space-before-brace: 1
+  space-before-bang: 1
+  space-after-bang: 1
+  space-between-parens: 1
+  space-around-operator: 1
+  # Variables
   variable-for-property:
-    - 0
+    - 2
     -
       properties:
-        - margin
-        - content
+        - 'color'
+        - 'font-family'
+        - 'font-size'
+        - 'z-index'
