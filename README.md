@@ -20,10 +20,10 @@ Padrões e boas práticas para o Front-End
 
 ### Linter
 - **Sass-lint:**
-  - [Documentação](https://github.com/AtomLinter/linter-sass-lint)
+  - [Documentação](https://github.com/sasstools/sass-lint)
 - **Plugins:**
-  - [Atom](https://atom.io/packages/linter-scss-lint)
-  - [Sublime](https://github.com/attenzione/SublimeLinter-scss-lint)
+  - [Atom](https://github.com/AtomLinter/linter-sass-lint)
+  - [Sublime](https://github.com/skovhus/SublimeLinter-contrib-sass-lint)
 
 
 ## Javascript
@@ -43,9 +43,14 @@ Padrões e boas práticas para o Front-End
 - **Guia boas práticas:**
   - [jquery-standards](http://lab.abhinayrathore.com/jquery-standards/)
 
+### Comentários
+- *Mínimo, descrição, @param e @return*
+- [JSDoc](http://usejsdoc.org/)
+
 ### Linter
 - **ESlint:**
   - [Documentação](https://github.com/eslint/eslint)
+  - [eslint-config-airbnb](https://www.npmjs.com/package/eslint-config-airbnb)
 - **Plugins:**
   - [Atom](https://github.com/AtomLinter/linter-eslint)
   - [Sublime](https://github.com/roadhump/SublimeLinter-eslint)

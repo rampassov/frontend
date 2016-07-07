@@ -8,7 +8,7 @@ options:
   formatter: stylish
 # File Options
 files:
-  include: '_dev/sass/**/*.scss'
+  include: '_dev/sass/**/*.*'
   ignore:
     - '_dev/sass/vendor/**/*.*'
 # Rule Configuration
@@ -55,7 +55,7 @@ rules:
   space-around-operator: 1
   # Variables
   variable-for-property:
-    - 2
+    - 1
     -
       properties:
         - 'color'
